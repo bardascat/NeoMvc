@@ -1,3 +1,3 @@
 Neo MVC Php FrameWork
 --------------------------------------------------------
-Copyright (c) Bardas Catalin, catalin@fabricadedesign.ro
+Copyright (c) Bardas Catalin, email:catalin@fabricadedesign.ro
