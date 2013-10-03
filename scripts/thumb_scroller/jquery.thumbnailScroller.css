@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*
+Thumbnail scroller jQuery plugin
+scrollers styling
+*/
+.jThumbnailScroller{position:relative; width:216px; height:44px; margin:0px auto 0 auto; border:0px solid #eee;  background:#FFF; padding:0; overflow:hidden; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+.jThumbnailScroller .jTscrollerContainer{position:absolute; width: 100%;}
+
+.jThumbnailScroller .jTscroller{position:relative; height:100%; margin:0; left:0; top:0; display:inline-block; *display:inline;}
+.jThumbnailScroller .jTscrollerNextButton,.jThumbnailScroller .jTscrollerPrevButton{position:absolute; display:block; width:40px; height:40px; -moz-border-radius:20px; -webkit-border-radius:20px; border-radius:20px; opacity:0.7;}
+.jThumbnailScroller .jTscrollerNextButton{background:url(nextArrow.png) center center;}
+.jThumbnailScroller .jTscrollerPrevButton{background: url(prevArrow.png) center center;}
+.jThumbnailScroller .jTscrollerNextButton:hover,.jThumbnailScroller .jTscrollerPrevButton:hover{opacity:1;}
+.jThumbnailScroller .jTscroller a{display:block; float:left; border:1px solid #ddd; margin-right:3px; background:#CCC; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+.jThumbnailScroller .jTscroller a:hover{}
+.jThumbnailScroller .jTscroller a:first-child{margin-left:0px;}
+.jThumbnailScroller .jTscroller a img{  }
+/* different styled scrollers */
+/* liquid width scroller */
+.jThumbnailScroller#tS1{width:95%;}
+.jThumbnailScroller#tS2{margin:30px auto;}
+
+.jThumbnailScroller#tS2 .jTscroller a{opacity:0.7;}
+.jThumbnailScroller#tS2 .jTscroller a:hover{opacity:1;}
+.jThumbnailScroller#tS2 .jTscrollerNextButton{margin:-20px 0px 0 10px; right:0; top:50%; z-index: 9999; position: absolute;}
+.jThumbnailScroller#tS2 .jTscrollerPrevButton{margin:-20px 0px 0 10px; left:0; top:50%; margin-left: 0px;}
+/* a vertical scroller */
